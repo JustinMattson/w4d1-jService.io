@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.active {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
